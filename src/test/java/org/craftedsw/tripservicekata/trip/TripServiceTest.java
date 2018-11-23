@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.List;
 
+import static org.craftedsw.tripservicekata.trip.UserBuilder.aUser;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -37,9 +38,11 @@ public class TripServiceTest {
 
 	@Test
 	public void should_not_return_any_trips_when_users_are_not_friends(){
-		User friend = new User();
-		friend.addFriend(ANOTHER_USER);
-		friend.addTrip(TO_BRAZIL);
+		User friend = aUser().friendsWith(ANOTHER_USER).withTrips(TO_BRAZIL).build();
+
+//		User friend = new User();
+//		friend.addFriend(ANOTHER_USER);
+//		friend.addTrip(TO_BRAZIL);
 
 		List<Trip> friendTrips = tripService.getTripsByUser(friend);
 
@@ -49,18 +52,20 @@ public class TripServiceTest {
 
 	@Test
 	public void should_not_return_any_trips_when_users_are_friends(){
+		User friend = aUser().friendsWith(ANOTHER_USER, loggedInUser).withTrips(TO_BRAZIL, TO_LONDON).build();
 
-		User friend = new User();
-		friend.addFriend(ANOTHER_USER);
-		friend.addFriend(loggedInUser);
-		friend.addTrip(TO_BRAZIL);
-		friend.addTrip(TO_LONDON);
+//		User friend = new User();
+//		friend.addFriend(ANOTHER_USER);
+//		friend.addFriend(loggedInUser);
+//		friend.addTrip(TO_BRAZIL);
+//		friend.addTrip(TO_LONDON);
 
 		List<Trip> friendTrips = tripService.getTripsByUser(friend);
 
 		assertThat(friendTrips.size(), is(2));
 
 	}
+
 
 	private class TestableTripService extends TripService{
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e881931-3c2e-4fb7-b2ac-b4c7e048380d" name="Default" comment="- Created Unit Test for TripService&#10;- Increase the test coverage of Unit Test" />
+    <list default="true" id="0e881931-3c2e-4fb7-b2ac-b4c7e048380d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/UserBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/craftedsw/tripservicekata/trip/TripServiceTest$TestableTripService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/craftedsw/tripservicekata/trip/TripServiceTest$TestableTripService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/craftedsw/tripservicekata/trip/TripServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/craftedsw/tripservicekata/trip/TripServiceTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +20,7 @@
     <SUITE FILE_PATH="coverage/trip_service_kata$TripServiceTest_should_throw_an_exception_when_user_is_not_logged_in.ic" NAME="TripServiceTest.should_throw_an_exception_when_user_is_not_logged_in Coverage Results" MODIFIED="1542253479650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.craftedsw.tripservicekata.trip.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/trip_service_kata$TripServiceTest.ic" NAME="TripServiceTest Coverage Results" MODIFIED="1542253642697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/trip_service_kata$TripServiceTest.ic" NAME="TripServiceTest Coverage Results" MODIFIED="1542943227155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.craftedsw.tripservicekata.trip.*</FILTER>
     </SUITE>
   </component>
@@ -52,26 +58,24 @@
           <file leaf-file-name="TripServiceTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="47" selection-start-line="46" selection-start-column="8" selection-end-line="47" />
+                <state relative-caret-position="384">
+                  <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#710#711#0" expanded="true" />
-                    <element signature="e#733#734#0" expanded="true" />
                     <element signature="e#1984#1985#0" expanded="true" />
                     <element signature="e#2012#2013#0" expanded="true" />
-                    <element signature="e#2071#2072#0" expanded="true" />
-                    <element signature="e#2098#2099#0" expanded="true" />
+                    <element signature="e#1954#1955#0" expanded="true" />
+                    <element signature="e#1982#1983#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TripService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/TripService.java">
+          <file leaf-file-name="UserBuilder.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/UserBuilder.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +87,8 @@
           <file leaf-file-name="TripService.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/TripService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+                <state relative-caret-position="306">
+                  <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
                   <folding>
                     <element signature="e#823#824#0" expanded="true" />
                     <element signature="e#866#867#0" expanded="true" />
@@ -108,6 +112,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="ONTO" value="refs/heads/master" />
   </component>
@@ -118,6 +129,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/TripService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/UserBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripServiceTest.java" />
       </list>
     </option>
@@ -244,6 +257,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.craftedsw.tripservicekata.trip" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -391,7 +409,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542251718200</updated>
-      <workItem from="1542251722358" duration="5822000" />
+      <workItem from="1542251722358" duration="8208000" />
     </task>
     <task id="LOCAL-00001" summary="- Created Unit Test for TripService&#10;- Increase the test coverage of Unit Test">
       <created>1542940580378</created>
@@ -400,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542940580378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Refactor unit test">
+      <created>1542943274281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542943274281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,12 +453,19 @@
     <history-entry file="TripServiceTest - 2018.11.15 at 11h 53m 38s.xml">
       <configuration name="TripServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TripServiceTest - 2018.11.23 at 11h 20m 28s.xml">
+      <configuration name="TripServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripServiceTest - 2018.11.23 at 11h 37m 34s.xml">
+      <configuration name="TripServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5822000" />
+    <option name="totallyTimeSpent" value="8208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,11 +473,11 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.2668187" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.3295325" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2668187" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2668187" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49946696" weight="0.21208666" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -475,16 +507,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Created Unit Test for TripService&#10;- Increase the test coverage of Unit Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Created Unit Test for TripService&#10;- Increase the test coverage of Unit Test" />
+    <MESSAGE value="- Refactor unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Refactor unit test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/user/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -516,22 +542,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/TripService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/craftedsw/tripservicekata/trip/UserBuilder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/UserBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/craftedsw/tripservicekata/trip/TripServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="47" selection-start-line="46" selection-start-column="8" selection-end-line="47" />
+        <state relative-caret-position="384">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
             <element signature="e#1984#1985#0" expanded="true" />
             <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
           </folding>
         </state>
       </provider>
