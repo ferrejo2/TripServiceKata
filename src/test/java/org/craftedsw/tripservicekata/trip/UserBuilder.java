@@ -4,8 +4,8 @@ import org.craftedsw.tripservicekata.user.User;
 
 public class UserBuilder {
 
-    private User[] friends = new User[] {};
-    private Trip[] trips = new Trip[] {};
+    private User[] friends = new User[]{};
+    private Trip[] trips = new Trip[]{};
 
     public static UserBuilder aUser() {
         return new UserBuilder();
@@ -20,7 +20,8 @@ public class UserBuilder {
         this.trips = trips;
         return this;
     }
-    public User build(){
+
+    public User build() {
         User user = new User();
         addTripsTo(user);
         addFriendsTo(user);
@@ -32,6 +33,7 @@ public class UserBuilder {
             user.addFriend(friend);
         }
     }
+
     private void addTripsTo(User user) {
         for (Trip trip : trips) {
             user.addTrip(trip);
